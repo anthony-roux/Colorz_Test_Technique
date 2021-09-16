@@ -1,6 +1,11 @@
-# Gulp-boilerplate
 
-Starter pack with NPM, Gulp 4 and SASS
+# Technical Test for Colorz
+
+Technos and tools used: Gulp, SCSS and Bootstrap
+
+## Start Test Technique : 
+- 15-09 : 22h-23h
+- 16-09 : 22h-23h
 
 ## How to use
 
@@ -54,6 +59,3 @@ You need to serve the `dist` folder.
 - locates the name of the source files in the browser inspector.
 
 
-Start Test Technique : 
-15-09 : 22h-23h
-16-09 : 22h-23h
