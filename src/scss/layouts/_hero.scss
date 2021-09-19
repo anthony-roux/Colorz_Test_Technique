@@ -1,0 +1,48 @@
+.hero {
+  min-height: 859px;
+  background-image: url("/src/assets/img/hero_mobile.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  text-align: center;
+  margin-bottom: 48px;
+
+  @include tablet-up {
+    background-image: url("/src/assets/img/hero1.png");
+  }
+
+  .titleBrand {
+    padding: 32px 0 40px 0 ;
+  }
+
+  &__text {
+    .title {
+      padding: 0;
+
+    }
+
+    .subtitle {
+      margin: 0 8px 8px 8px;
+      color: $orange_brand;
+    }
+
+    .priceBubble {
+      border-radius: 100%;
+      background-color: $orange_brand;
+      width: 155px;
+      height: 155px;
+      padding: 8px;
+      top: 720px;
+      right: 24px;
+      box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+      transform: rotate(10deg);
+
+      @include flexbox(column, center, center);
+
+      .price {
+        line-height: 40px;
+      }
+    }
+  }
+
+}
