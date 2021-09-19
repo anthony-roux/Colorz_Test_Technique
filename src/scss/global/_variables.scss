@@ -1,26 +1,19 @@
 //************************* COLORS *************************//
 
-// PRIMARY :
+// MONOCHROME :
 $white: #ffffff;
-$dark: #333;
+$dark: #18181B;
 
-// SECONDARY
-$blueGrey: #224358;
-$blue: #0596DE;
-$lightGrey: #CFD8DC;
-$grey: #7791A2;
-$darkGrey: #224358;
-$blueTransparent: rgba(33, 150, 243, 0.58);
+// PRIMARY
+$orange_brand: #F0380F;
 
-
-//************************* GRADIENT *************************//
-
-
-
+.text_orangeBrand {
+  color: $orange_brand
+}
 
 //************************* FONTS *************************//
 
-$montserrat: "Montserrat",
+$helvetica: "Helvetica Neue",
 "sans-serif";
 
 
