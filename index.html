@@ -4,16 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap Site</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="dist/css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="dist/js/all.min.js" language="JavaScript" type="text/javascript"></script>
 </head>
 <body>
-  <section class="hero container">
-    <nav>
-      <h2>Vision.R</h2>
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
+  <section class="hero position-relative" >
+    <nav class="container">
+      <h2 class="text-center titleBrand fs_24_bold m-0">Vision.R</h2>
+      <ul class="nav d-none d-md-flex justify-content-end">
+        <li class="nav-item ">
           <a class="nav-link active" aria-current="page" href="#">Low Solution</a>
         </li>
         <li class="nav-item">
@@ -27,34 +32,40 @@
         </li>
       </ul>
     </nav>
-    <div class="hero__text">
-      <p class="subtitle">Du JAMAIS VU (enfin jusqu’à maintenant, du coup)</p>
-      <h2 class="title">Avec Vision.R, travaillez au bureau... comme si vous étiez encore à la maison ! </h2>
-      <div class="priceBubble"></div>
+    <div class="hero__text container">
+      <p class="subtitle fs_16 text-center">Du JAMAIS VU (enfin jusqu’à maintenant, du coup)</p>
+      <h2 class="title fs_24_bold">Avec Vision.R, travaillez au bureau... comme si vous étiez encore à la maison ! </h2>
+      <div class="priceBubble position-absolute">
+        <p class="title fs_12 text-white text-uppercase">Offre speciale</p>
+        <p class="price fs_32_boldXL text-white">799,99€*</p>
+        <p class="details fs_10_light text-white">*au lieu de 1.499,99€</p>
+      </div>
     </div>
 
   </section>
-  <section class="container">
-    <p>Vision.R with a grand “R” like in the mot “Revolution” !
+  <section class="container d-flex flex-column">
+    <p class="fs_16 text-center">Vision.R with a grand “R” like in the mot “Revolution” !
       You are afraid to feel déstabilized with the futur retour au bureau ? 
       With Vision.R, be rassuré.e.s ! Get instant, real time, high resolution, social videocall and feel comme à la maison. Bref, get ready to faire un carton !</p>
-      <a href="" class="btn btn-primary">Buy it now</a>
+      <a href="" class="btn cta_primary">Buy it now</a>
   </section>
-  <section class="presentation ">
+  <section class="presentation py-4">
     <div class="container">
-      <div class="presentation__text">
-        <h3 class="subtitle">The most advanced technology</h3>
-        <p class="paragraph">Only 3mm of Carton-Plume de qualité for une expérience maximale ! We travelled all around the world, we rencontred all the Carton-Plume Masters to rapporter only the best.</p>
+      <div class="presentation__text text-center">
+        <h3 class="subtitle fs_24_bold">The most advanced technology</h3>
+        <p class="paragraph fs_16 mt-3 mb-4"> We travelled all around the world, we rencontred all the Carton-Plume Masters to rapporter only the best.</p>
       </div>
     </div>
-    <div class="presentation__photo"></div>
+    <div class="presentation__photo">
+      <img src="/src/assets/img/section1.png" alt="supine view of the Vision.R">
+    </div>
   </section>
   <section class="SUPPRIMER ?">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div id="slider1" class="carousel slide" data-bs-ride="carousel">
+      <div class="slider-dots">
+        <div data-bs-target="#slider1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></div>
+        <div data-bs-target="#slider1" data-bs-slide-to="1" aria-label="Slide 2"></div>
+        <div data-bs-target="#slider1" data-bs-slide-to="2" aria-label="Slide 3"></div>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -67,59 +78,51 @@
           <img src="/src/assets/img/slider1c.png" class="d-block w-100" alt="...">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden"></span>
-      </button>
     </div>
   </section>
-  <section class="catchPhrase container">
-    <p class="paragraph">
+  <section class="catchPhrase container py-4">
+    <p class="paragraph fs_12_bold text-center mt-4">
       With your Vision.R
     </p>
-    <h3 class="title">Get ready to any situation !</h3>
+    <h3 class="title fs_32_bold text-center text_orangeBrand">Get ready to any situation !</h3>
   </section>
 
-  <section class="lock">
-    <div class="lock__photo" style="background-image: url(/src/assets/img/section3.png);"></div>
+  <section class="advantage">
+    <div class="advantage__photo mw-100" style="background-image: url(/src/assets/img/section3.png);"></div>
     <div class="container">
-      <div class="lock__text">
+      <div class="advantage__text py-5">
         <div class="container-icon">
           <img src="/src/assets/img/icon/icon-lock.svg" alt="lock icon">
         </div>
-        <h3 class="subtitle">The pudique (or je suis en pyjama et j’assume pas) effect</h3>
-        <p class="paragraph">With our no camera mode, you can be wherever you want and be en pyjama in totale discretion with professionnalisme.</p>
+        <h3 class="subtitle fs_24_bold my-4">The pudique (or je suis en pyjama et j’assume pas) effect</h3>
+        <p class="paragraph fs_16">With our no camera mode, you can be wherever you want and be en pyjama in totale discretion with professionnalisme.</p>
       </div>
     </div>
   </section>
 
-  <section class="lock">
-    <div class="lock__photo" style="background-image: url(/src/assets/img/section4.png);"></div>
+  <section class="advantage">
+    <div class="advantage__photo mw-100" style="background-image: url(/src/assets/img/section4.png);"></div>
     <div class="container">
-      <div class="lock__text">
+      <div class="advantage__text py-5">
         <div class="container-icon">
           <img src="/src/assets/img/icon/icon-mute.svg" alt="icon mute">
         </div>
-        <h3 class="subtitle">Someone is clairement bullshiting ? Breathe again with the Mute option !</h3>
-        <p class="paragraph">Bullshit aleeEEeeeeert ! Keep calm and press the button to passer outre.</p>
+        <h3 class="subtitle fs_24_bold my-4">Someone is clairement bullshiting ? Breathe again with the Mute option !</h3>
+        <p class="paragraph fs_16">Bullshit aleeEEeeeeert ! Keep calm and press the button to passer outre.</p>
       </div>
     </div>
   </section>
 
-  <section class="lock">
-    <div class="lock__photo" style="background-image: url(/src/assets/img/section5.png);"></div>
+  <section class="advantage">
+    <div class="advantage__photo mw-100" style="background-image: url(/src/assets/img/section5.png);"></div>
     <div class="container">
-      <div class="lock__text">
+      <div class="advantage__text py-5">
         <div class="container-icon">
           <img src="/src/assets/img/icon/icon-lock.svg" alt="">
         </div>
-        <h3 class="subtitle">One device, one infinité
+        <h3 class="subtitle fs_24_bold my-4">One device, one infinité
           of possiblilités</h3>
-        <p class="paragraph">Start from zero, choose your background and create your new life while impressing the collègues.</p>
+        <p class="paragraph fs_16">Start from zero, choose your background and create your new life while impressing the collègues.</p>
       </div>
     </div>
   </section>
