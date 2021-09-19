@@ -27,7 +27,7 @@ const files = {
   dist_js_folder: "dist/js",
   dist_all_css: "dist/**/*.css",
   dist_all_js: "dist/**/*.js",
-  dist_all_img: "dist/assets/img/**/*"
+  dist_all_img: "dist/assets/img"
 };
 
 //---------------| BrowserSync init |---------------//
