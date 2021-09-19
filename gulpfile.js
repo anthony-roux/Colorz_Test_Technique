@@ -21,13 +21,13 @@ const files = {
   all_html_files: "**/*.html",
   all_scss_files: "src/scss/**/*.scss",
   all_js_files: "src/js/**/*.js",
-  all_img_files: "src/assets/img/*",
+  all_img_files: "src/assets/img/**/*",
   main_scss_path: "src/scss/styles.scss",
   dist_css_folder: "dist/css",
   dist_js_folder: "dist/js",
   dist_all_css: "dist/**/*.css",
   dist_all_js: "dist/**/*.js",
-  dist_all_img: "dist/assets/img/*"
+  dist_all_img: "dist/assets/img/**/*"
 };
 
 //---------------| BrowserSync init |---------------//
