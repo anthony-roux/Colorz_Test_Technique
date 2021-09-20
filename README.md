@@ -6,7 +6,8 @@ Technos and tools used: Gulp, SCSS and Bootstrap
 ## Start Test Technique : 
 - 15-09 : 22h-23h
 - 16-09 : 22h-23h
-- 19-09 : 14h-18h / 22h-23H
+- 19-09 : 14h-18h / 22h-23h
+- 20-09 : 16h-18h / 22h-23h
 
 ## How to use
 
