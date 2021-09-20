@@ -1,0 +1,15 @@
+.footnotes {
+  background-color: $grey_lighter;
+  color: $grey;
+  padding: 32px;
+
+  &__link {
+    color: $grey;
+    text-decoration: underline;
+
+    &:hover {
+      font-weight: 500;
+      color: $orange_brand
+    }
+  }
+}

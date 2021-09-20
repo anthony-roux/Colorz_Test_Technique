@@ -14,18 +14,18 @@
 
 
   div {
-    max-width: 8px;
-    max-height: 8px;
-    width: 8px;
-    height: 8px;
-    border-radius: 100%;
-    background: $white;
-    margin: 0 8px;
-
-    
+    max-width: 8px !important;
+    max-height: 8px !important;
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 100% !important;
+    background: $white !important;
+    margin: 0 8px !important;
+    border: none !important;
+    opacity: 1 !important;
 
     &.active {
-      background: $dark;
+      background: $dark !important;
     }
   }
 }

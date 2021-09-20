@@ -1,0 +1,16 @@
+.form {
+  .form-control {
+    border: 1px solid $grey_light;
+    min-height: 56px;
+    outline-color: none;
+    border-radius: 5px;
+  }
+
+  .cta_primary {
+    max-width: none;
+  }
+
+  .informations {
+    color: $grey;
+  }
+}
