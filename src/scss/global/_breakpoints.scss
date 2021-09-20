@@ -9,7 +9,7 @@ $desktop-up: 1088px;
 $desktop-down-1199: 1199px;
 $desktop-up-1200: 1200px;
 $desktop-up-1366: 1366px;
-$desktop-up-1448: 1448px;
+
 
 
 //************************* MEDIA QUERIES *************************//
@@ -59,11 +59,6 @@ $desktop-up-1448: 1448px;
 
 @mixin desktop-up-1366 {
   @media (min-width: $desktop-up-1366) {
-    @content;
-  }
-}
-@mixin desktop-up-1448 {
-  @media (min-width: $desktop-up-1448) {
     @content;
   }
 }

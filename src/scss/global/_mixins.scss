@@ -8,14 +8,3 @@
 }
 
 
-
-@mixin scale-animation {
-	transition: all 0.2s ease-in;
-
-	&:hover {
-		-webkit-transform: scale(1.02);
-		transform: scale(1.02);
-	}
-}
-
-
