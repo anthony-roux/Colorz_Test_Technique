@@ -9,9 +9,23 @@
 
   @include tablet-up {
     background-image: url("/src/assets/img/hero1.png");
+    min-height: 1564px;
+  }
+
+  nav {
+    .nav-link{
+      color: $dark;
+      
+      
+      &:hover {
+        color: $orange_brand;
+        border-bottom: 1px solid $orange_brand;
+      }
+    }
   }
 
   .titleBrand {
+    color: $dark;
     padding: 32px 0 40px 0 ;
   }
 
@@ -19,6 +33,15 @@
     .title {
       padding: 0;
 
+      @include tablet-up {
+        font-size: 32px;
+        max-width: 1020px;
+        margin: 0 auto;
+      }
+
+      @include desktop-up {
+        font-size: 48px;
+      }
     }
 
     .subtitle {
@@ -37,9 +60,14 @@
       box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
       transform: rotate(10deg);
 
+      @include tablet-up {
+        top: 600px;
+        right: 88px;
+      }
+
       @include flexbox(column, center, center);
 
-      .price {
+      &__price {
         line-height: 40px;
       }
     }

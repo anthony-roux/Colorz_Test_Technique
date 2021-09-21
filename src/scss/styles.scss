@@ -2,9 +2,9 @@
 
 @import 'global/_reset.scss';
 @import 'global/_variables.scss';
+@import 'global/_breakpoints.scss';
 @import 'global/_fonts.scss';
-@import 'global/_mixins';
-@import 'global/_breakpoints';
+@import 'global/_mixins.scss';
 @import 'global/_buttons.scss';
 @import 'global/_icons.scss';
 @import 'global/_utilities.scss';
@@ -14,6 +14,7 @@
 @import 'layouts/_advantage.scss';
 @import 'layouts/_chooseYourVision.scss';
 @import 'layouts/_mustHave.scss';
+@import 'layouts/_catchPhrase.scss';
 @import 'layouts/_falseReassurance.scss';
 @import 'layouts/_oneMoreThing.scss';
 @import 'layouts/_footnotes.scss';

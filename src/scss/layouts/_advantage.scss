@@ -5,5 +5,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    @include tablet-up {
+      width: 50%;
+      min-height: 720px;
+    }
   }
 }
