@@ -6,12 +6,44 @@ $dark: #18181B;
 
 // PRIMARY
 $orange_brand: #F0380F;
+$orange_brand_hover: #ae2a0c;
 $grey_lighter: #F4F4F4;
 $grey_light: #E4E4E4;
 $grey: #8F8F8F;
 
 //************************* FONTS *************************//
 
-$helvetica: "Helvetica Neue",
-"sans-serif";
+$helvetica: "Helvetica Neue", "sans-serif";
 
+
+//************************* MAX-WIDTH *************************//
+
+$w_504: 504px;
+$w_800: 800px;
+$w_1020: 1020px;
+
+
+.max_w_504{
+  max-width: $w_504;
+
+  &_auto {
+    max-width: $w_504;
+    margin: 0 auto;
+  }
+}
+.max_w_800 {
+  max-width: $w_800;
+
+  &_auto {
+    max-width: $w_800;
+    margin: 0 auto;
+  }
+}
+.max_w_1020 {
+  max-width: $w_1020;
+
+  &_auto {
+    max-width: $w_1020;
+    margin: 0 auto;
+  }
+}
