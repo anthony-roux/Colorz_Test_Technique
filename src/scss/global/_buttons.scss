@@ -14,5 +14,11 @@
   font-weight: 700;
   margin: 24px auto;
   max-width: max-content;
+
+  &:hover {
+    background-color: $orange_brand_hover;
+    padding: 16px 32px;
+    color: $white;
+  }
 }
 
