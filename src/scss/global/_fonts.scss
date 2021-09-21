@@ -88,6 +88,27 @@ body {
     }
   }
 
+  &_18 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+ 
+
+    &_bold {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.5;
+ 
+      &_lg {
+        @include desktop-up {
+          font-size: 18px;
+          font-weight: 500; 
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+
   &_24 {
     font-size: 24px;
     font-weight: 400;
@@ -99,6 +120,13 @@ body {
       font-weight: 500;
       line-height: 1.5;
  
+      &_lg {
+        @include desktop-up {
+          font-size: 24px;
+          font-weight: 500; 
+          line-height: 1.5;
+        }
+      }
     }
   }
 
@@ -112,11 +140,72 @@ body {
       font-size: 32px;
       font-weight: 500; 
       line-height: 1.5;
- 
+
+      &_lg {
+        @include desktop-up {
+          font-size: 32px;
+          font-weight: 500; 
+          line-height: 1.5;
+        }
+      }
     }
 
     &_boldXL {
       font-size: 32px;
+      font-weight: 700;
+      line-height: 1.5;
+  
+    }
+  }
+
+  &_40 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.5;
+  
+
+    &_bold {
+      font-size: 40px;
+      font-weight: 500; 
+      line-height: 1.5;
+
+      &_lg {
+        @include desktop-up {
+          font-size: 40px;
+          font-weight: 500; 
+          line-height: 1.5;
+        }
+      }
+    }
+
+    &_boldXL {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 1.5;
+    }
+  }
+
+  &_48 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.5;
+
+    &_bold {
+      font-size: 48px;
+      font-weight: 500; 
+      line-height: 1.5;
+
+      &_lg {
+        @include desktop-up {
+          font-size: 48px;
+          font-weight: 500; 
+          line-height: 1.5;
+        }
+      }
+    }
+  
+    &_boldXL {
+      font-size: 48px;
       font-weight: 700;
       line-height: 1.5;
   
