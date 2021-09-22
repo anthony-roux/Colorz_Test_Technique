@@ -1,9 +1,19 @@
 .form {
+
+  max-width: none;
+
+  @include tablet-up {
+    max-width: 504px;
+  }
   .form-control {
     border: 1px solid $grey_light;
     min-height: 56px;
     outline-color: none;
     border-radius: 5px;
+  }
+
+  .form-label {
+    
   }
 
   .cta_primary {
