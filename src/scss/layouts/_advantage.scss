@@ -8,6 +8,10 @@
 
     @include tablet-up {
       width: 50%;
+    }
+
+    @include desktop-up {
+      width: 50%;
       min-height: 720px;
     }
   }

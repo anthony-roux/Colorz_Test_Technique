@@ -1,12 +1,25 @@
 .mustHave {
+
+  @include desktop-down {
+    max-width: 800px;
+  }
+
   .card-img-top {
     max-width: 209px;
 
   }
 
   .card {
+    max-width: 397px;
     border: 1px solid $grey_light;
     border-radius: 5px;
+
+    img {
+      @include tablet-up {
+        max-width: 315px;
+        max-height: 315px;
+      }
+    }
   }
 
 

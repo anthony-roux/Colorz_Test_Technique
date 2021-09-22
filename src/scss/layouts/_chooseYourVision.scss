@@ -4,11 +4,18 @@
   background-color: $grey_lighter;
   &__imgs {
     overflow-x: hidden;
+    min-height: 100%;
 
     img {
-      max-width: 290px;
+      // max-width: 290px;
       max-height: 176px;
+      // min-height: 176px;
+      height: 100%;
       object-fit: contain;
+
+      @include tablet-up {
+        max-height: none;
+      }
     }
   }
 
@@ -18,10 +25,14 @@
 
   .carousel-item {
     background-color: $orange_brand;
-    min-height: 274px;
+    height: auto;
+    padding:56px 0;
+    .carousel-item-container{
+
+    }
   }
 
   .slider-dots {
-    margin-bottom: 48px;
+    margin-bottom: 32px;
   }
 }

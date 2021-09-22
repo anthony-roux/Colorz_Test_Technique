@@ -2,4 +2,14 @@
   background-color: $grey_lighter;
   padding: 40px 48px;
 
+  @include tablet-up {
+  padding: 64px 48px;
+  }
+
+  &__item {
+    @include tablet-up {
+      max-width: 215px;
+    }
+  }
+
 }
