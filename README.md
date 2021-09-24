@@ -9,8 +9,9 @@ Technos and tools used: Gulp, SCSS and Bootstrap
 - 19-09 : 14h-18h / 22h-23h
 - 20-09 : 16h-18h / 22h-23h
 - 21-09 : 22h-00h
-- 22-09 : 19h-21h
-- 23-09 : 19h-21h
+- 22-09 : 20h-22h
+- 23-09 : 20h-23h
+- 24-09 : 16h-18h
 
 
 ## How to use
