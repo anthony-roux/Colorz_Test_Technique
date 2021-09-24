@@ -2,16 +2,6 @@
   background-color: $grey_lighter;
   padding: 0 32px 32px 32px;
 
-  &__foundUs {
-    @include tablet-up {
-      // margin: 0 64px 0 48px;
-    }
-
-    @include desktop-up {
-      // margin: 0 88px 0 0px;
-    }
-  }
-
   .socialNetwork {
     color: $dark;
 
