@@ -1,0 +1,12 @@
+.presentation {
+  &__text{
+    min-width: 50%;
+  }
+  &__photo{
+    min-width: 50%;
+
+    img {
+      min-width: 100%;
+    }
+  }
+}

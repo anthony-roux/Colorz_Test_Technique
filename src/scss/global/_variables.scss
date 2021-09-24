@@ -19,6 +19,7 @@ $helvetica: "Helvetica Neue", "sans-serif";
 //************************* MAX-WIDTH *************************//
 
 $w_504: 504px;
+$w_577: 577px;
 $w_800: 800px;
 $w_1020: 1020px;
 
@@ -28,6 +29,15 @@ $w_1020: 1020px;
 
   &_auto {
     max-width: $w_504;
+    margin: 0 auto;
+  }
+}
+
+.max_w_577{
+  max-width: $w_577;
+
+  &_auto {
+    max-width: $w_577;
     margin: 0 auto;
   }
 }

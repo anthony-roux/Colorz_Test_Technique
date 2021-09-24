@@ -5,17 +5,29 @@
   &__imgs {
     overflow-x: hidden;
     min-height: 100%;
+    justify-content: center;
+
+    @include phone-up {
+      justify-content: space-between;
+    }
+
+
 
     img {
-      // max-width: 290px;
       max-height: 176px;
-      // min-height: 176px;
       height: 100%;
       object-fit: contain;
 
+      @include phone-up {
+        max-height: 276px;
+      }
       @include tablet-up {
+        max-height: 476px;
+      }
+      @include desktop-up {
         max-height: none;
       }
+
     }
   }
 
@@ -26,7 +38,12 @@
   .carousel-item {
     background-color: $orange_brand;
     height: auto;
-    padding:56px 0;
+    padding: 72px 0;
+
+    @include tablet-up {
+      padding: 88px 0;
+    }
+
     .carousel-item-container{
 
     }
